@@ -1,0 +1,7 @@
+@import './settings/_reset.scss';
+@import './settings/_fonts.scss';
+
+body {
+  max-width: 1920px;
+  font-family: $font-base;
+}
