@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="15e70ab0-691d-4d26-aa19-5e33cbf90b80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs/aboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Home" />
       <recent name="$PROJECT_DIR$/src/scss" />
     </key>
@@ -47,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1632856050381</updated>
       <workItem from="1632856059392" duration="87000" />
-      <workItem from="1632856672412" duration="5222000" />
+      <workItem from="1632856672412" duration="5513000" />
+      <workItem from="1632900817646" duration="3454000" />
     </task>
     <servers />
   </component>
@@ -65,5 +70,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
