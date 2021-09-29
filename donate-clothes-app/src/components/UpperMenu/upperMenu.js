@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 
 const UpperMenu = () => {
     return (
-        <div>
+        <div className="upperNavigation">
             <Link to="/logowanie/">Zaloguj się</Link>
-            <Link to="/rejestracja/">Zarejestruj się</Link>
+            <Link to="/rejestracja/">Załóż konto</Link>
         </div>
     );
 };

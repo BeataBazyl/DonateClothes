@@ -1,5 +1,9 @@
 @import './settings/_reset.scss';
 @import './settings/_fonts.scss';
+@import './settings/_colors.scss';
+@import 'partials/_navigation.scss';
+@import './settings/_button.scss';
+@import 'partials/_header.scss';
 
 body {
   max-width: 1920px;

@@ -6,12 +6,16 @@ import EasySteps from "../EasySteps/easySteps";
 import AboutUs from "../AboutUs/aboutUs";
 import WhoDoWeHelp from "../WhoDoWeHelp/whoDoWeHelp";
 import ContactForm from "../ContactForm/contactForm";
+import UpperMenu from "../UpperMenu/upperMenu";
 
 const Home = () => {
     return (
         <>
-            <Navigation/>
-            <Header/>
+            <header className="headerContainer">
+                <UpperMenu/>
+                <Navigation/>
+                <Header/>
+            </header>
             <ThreeColumns/>
             <EasySteps/>
             <AboutUs/>
