@@ -10,38 +10,34 @@ const EasySteps = () => {
         <div id="steps" className="fourStepsContainerBig">
             <h1>Wystarczą 4 proste kroki</h1>
             <div className="fourStepsContainerSmall">
-                <div className="fourStepsSectionSmall">
-                    <img src={iconOne} alt="Icon-1"/>
-                    <p>Wybierz rzeczy</p>
-                    <hr className="fourStepsLine"/>
-                    <p>ubrania, zabawki, <br/> sprzęt i inne</p>
-                </div>
-                <div className="fourStepsSectionSmall">
-                    <img src={iconTwo} alt="Icon-2"/>
-                    <p>Spakuj je</p>
-                    <hr className="fourStepsLine"/>
-                    <p>skorzystaj z <br/> worków na śmieci</p>
-                </div>
-                <div className="fourStepsSectionSmall">
-                    <img src={iconThree} alt="Icon-3"/>
-                    <p>Zdecyduj komu <br/> chcesz pomóc</p>
-                    <hr className="fourStepsLine"/>
-                    <p>wybierz zaufane <br/> miejsce</p>
-                </div>
-                <div className="fourStepsSectionSmall">
-                    <img src={iconFour} alt="Icon-4"/>
-                    <p>Zamów kuriera</p>
-                    <hr className="fourStepsLine"/>
-                    <p>kurier przyjedzie <br/> w dogodnym terminie</p>
-                </div>
+                    <div className="fourStepsSectionSmall">
+                        <img src={iconOne} alt="Icon-1"/>
+                        <p>Wybierz rzeczy</p>
+                        <hr className="fourStepsLine"/>
+                        <p>ubrania, zabawki, <br/> sprzęt i inne</p>
+                    </div>
+                    <div className="fourStepsSectionSmall">
+                        <img src={iconTwo} alt="Icon-2"/>
+                        <p>Spakuj je</p>
+                        <hr className="fourStepsLine"/>
+                        <p>skorzystaj z <br/> worków na śmieci</p>
+                    </div>
+                    <div className="fourStepsSectionSmall">
+                        <img src={iconThree} alt="Icon-3"/>
+                        <p>Zdecyduj komu <br/> chcesz pomóc</p>
+                        <hr className="fourStepsLine"/>
+                        <p>wybierz zaufane <br/> miejsce</p>
+                    </div>
+                    <div className="fourStepsSectionSmall">
+                        <img src={iconFour} alt="Icon-4"/>
+                        <p>Zamów kuriera</p>
+                        <hr className="fourStepsLine"/>
+                        <p>kurier przyjedzie <br/> w dogodnym terminie</p>
+                    </div>
             </div>
-            <ul className="fourStepsGiveClothes">
-                <li>
-                    <Link to="/logowanie/">
-                        <button className="lightButton">ODDAJ RZECZY</button>
-                    </Link>
-                </li>
-            </ul>
+                <Link to="/logowanie/">
+                    <button className="lightButton">ODDAJ RZECZY</button>
+                </Link>
         </div>
     );
 };

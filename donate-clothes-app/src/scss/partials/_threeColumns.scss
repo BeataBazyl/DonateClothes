@@ -1,5 +1,6 @@
 .threeColumnsContainer {
-    background-color: $yellow;
+    background-image: url("../../assets/3columns.png");
+    background-size: contain;
     display: flex;
     flex-direction: row;
     width: 100%;
