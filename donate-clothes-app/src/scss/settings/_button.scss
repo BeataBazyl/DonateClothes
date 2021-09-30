@@ -11,4 +11,10 @@
   font-weight: 300;
   border: 1px solid $gray-light;
   color: $gray-dark;
+  transition-duration: 0.4s;
+}
+
+.lightButton:hover {
+    background-color: $yellow;
+    color: $gray-dark;
 }

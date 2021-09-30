@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 
 const Header = () => {
@@ -7,8 +8,12 @@ const Header = () => {
             <div className="rightSide">
                 <h1>Zacznij pomagać!</h1>
                 <h1> Oddaj niechciane rzeczy w zaufane ręce</h1>
-                <button className="lightButton">oddaj rzeczy</button>
-                <button className="lightButton">zorganizuj zbiórkę</button>
+                <Link to="/logowanie/">
+                    <button className="lightButton">oddaj rzeczy</button>
+                </Link>
+                <Link to="/logowanie/">
+                    <button className="lightButton">zorganizuj zbiórkę</button>
+                </Link>
             </div>
         </main>
     );

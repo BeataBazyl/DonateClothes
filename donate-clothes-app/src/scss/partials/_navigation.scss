@@ -4,7 +4,7 @@
   width: 100%;
   height: 100vh;
   background: url("../../assets/HeroImage.png") no-repeat;
-  background-size: 885px;
+  background-size: contain;
   background-position: -265px;
 }
 
@@ -18,8 +18,16 @@
   a {
     color: $gray-dark;
     cursor: pointer;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     text-decoration: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px;
+  }
+
+  a:hover {
+    border: 1px solid $yellow;
+    padding: 10px;
   }
 }
 

@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="15e70ab0-691d-4d26-aa19-5e33cbf90b80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Icon-kopia 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Icon-kopia 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Icon-kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EasySteps/easySteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EasySteps/easySteps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/signIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UpperMenu/upperMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UpperMenu/upperMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThreeColumns/threeColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThreeColumns/threeColumns.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/settings/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_button.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +68,8 @@
       <updated>1632856050381</updated>
       <workItem from="1632856059392" duration="87000" />
       <workItem from="1632856672412" duration="5513000" />
-      <workItem from="1632900817646" duration="14939000" />
+      <workItem from="1632900817646" duration="15044000" />
+      <workItem from="1633005194944" duration="7078000" />
     </task>
     <servers />
   </component>
@@ -90,7 +93,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
