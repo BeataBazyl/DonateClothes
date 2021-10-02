@@ -5,15 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/3 Columns Background@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs/aboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EasySteps/easySteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EasySteps/easySteps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThreeColumns/threeColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThreeColumns/threeColumns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/contactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm/contactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WhoDoWeHelp/whoDoWeHelp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhoDoWeHelp/whoDoWeHelp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_easySteps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_easySteps.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_threeColumns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_threeColumns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_whoDoWeHelp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_whoDoWeHelp.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,8 @@
       <workItem from="1632856672412" duration="5513000" />
       <workItem from="1632900817646" duration="15044000" />
       <workItem from="1633005194944" duration="7235000" />
-      <workItem from="1633017497723" duration="4921000" />
+      <workItem from="1633017497723" duration="5160000" />
+      <workItem from="1633075265139" duration="7593000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,57 @@
+.ContactContainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+
+  .ContactImage{
+    background: transparent url('../../assets/Background-Contact-Form.jpeg') no-repeat ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    opacity: 30%;
+  }
+
+  .ContactHero{
+    width: 50vw;
+    background: rgb(249,245,241);
+    background: linear-gradient(39deg, rgba(249,245,241,1) 20%, rgba(255,255,255,0.3575805322128851) 48%);
+    h1{
+      margin-top: 200px;
+      text-align: center;
+      font-size: 38px;
+      letter-spacing: -0.76px;
+      color: $gray-light;
+      opacity: 1;
+    }
+    .ContactHeroDecoration{
+      background: transparent url('../../assets/Decoration.svg') 0 0 no-repeat padding-box;
+      opacity: 1;
+      width: 253px;
+      margin-top: 25px;
+      margin-left: 135px;
+      height: 33px;
+    }
+  }
+  .Footer{
+    font-size: 18px;
+    letter-spacing: 0;
+    color: $gray-light;
+    opacity: 1;
+    margin-left: -350px;
+    margin-top: 450px;
+    display: flex;
+  }
+}
+
+//.ContactImage::after {
+//  position: absolute;
+//  content: "";
+//  left: 0;
+//  top: 0;
+//  height: 100%;
+//  width: 100%;
+//  background: rgb(255,255,255);
+//  background: linear-gradient(267deg, rgba(255,255,255,1) 49%, rgba(255,255,255,0.3575805322128851) 90%);
+//}

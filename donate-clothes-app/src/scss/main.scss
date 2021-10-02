@@ -1,15 +1,21 @@
-@import './settings/_reset.scss';
-@import './settings/_fonts.scss';
-@import './settings/_colors.scss';
-@import 'partials/_navigation.scss';
-@import './settings/_button.scss';
+@import './settings/reset.scss';
+@import './settings/fonts.scss';
+@import './settings/colors.scss';
+@import 'partials/navigation.scss';
+@import './settings/button.scss';
 @import 'partials/_header.scss';
 @import 'partials/_threeColumns';
 @import 'partials/easySteps';
 @import 'partials/aboutUs';
+@import 'partials/whoDoWeHelp';
+@import 'partials/contact';
 
 body {
   max-width: 1920px;
   font-family: $font-base;
   color: $gray-dark;
+  p {
+    line-height: 1.5rem;
+    font-size: 0.80rem;
+  }
 }
