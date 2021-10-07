@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from "../Form/form";
+import Social from "../Social/social.js";
 
 
 const ContactForm = () => {
@@ -10,12 +11,6 @@ const ContactForm = () => {
                 <h1>Skontaktuj się z nami</h1>
                 <div className='ContactHeroDecoration'/>
                 <Form/>
-                <div className="Footer">
-                    <div className='FooterLabel'>Copyright by Coders Lab</div>
-                    <div className="socialIcons">
-                        kjljk
-                    </div>
-                </div>
             </div>
         </div>
     );

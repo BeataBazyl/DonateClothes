@@ -4,7 +4,7 @@ const Form = () => {
     return (
         <div className='Form'>
             <div className='FormHeader'>
-                <div className='FormuHeaderName'>
+                <div className='FormHeaderName'>
                     <h2>Wpisz swoje imię</h2>
                     <input type="text" placeholder="Krzysztof"/>
                 </div>

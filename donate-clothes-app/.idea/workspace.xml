@@ -5,10 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactForm/contactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm/contactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WhoDoWeHelp/whoDoWeHelp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhoDoWeHelp/whoDoWeHelp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_whoDoWeHelp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_whoDoWeHelp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,8 @@
       <workItem from="1632900817646" duration="15044000" />
       <workItem from="1633005194944" duration="7235000" />
       <workItem from="1633017497723" duration="5160000" />
-      <workItem from="1633075265139" duration="7593000" />
+      <workItem from="1633075265139" duration="7685000" />
+      <workItem from="1633262670064" duration="5294000" />
     </task>
     <servers />
   </component>
