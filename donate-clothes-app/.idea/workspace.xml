@@ -5,19 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/3 Columns Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/3columns.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Hero Image@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/People@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Log/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Log/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignIn/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/signIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_threeColumns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_threeColumns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_log.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_log.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +75,7 @@
       <workItem from="1634108291806" duration="83000" />
       <workItem from="1636718983926" duration="100000" />
       <workItem from="1636719504673" duration="1924000" />
-      <workItem from="1637145826740" duration="2858000" />
+      <workItem from="1637145826740" duration="10168000" />
     </task>
     <servers />
   </component>
