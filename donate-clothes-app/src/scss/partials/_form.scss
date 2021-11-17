@@ -1,6 +1,13 @@
 .Form {
   margin-left: 100px;
 
+  .lightButton {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    text-transform: none;
+  }
+
   .FormHeader{
     display: flex;
 

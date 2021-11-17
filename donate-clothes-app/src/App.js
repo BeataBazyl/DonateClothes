@@ -7,7 +7,6 @@ import {
 import Home from "./components/Home/home";
 import Log from "./components/Log/log";
 import SignIn from "./components/SignIn/signIn";
-import Social from "./components/Social/social";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
                   <Route path="/logowanie/" component={Log} />
                   <Route path="/rejestracja/" component={SignIn} />
               </Switch>
-              <Social/>
           </Router>
       </>
   );
