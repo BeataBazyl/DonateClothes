@@ -1,67 +1,21 @@
 import React, {useState} from 'react';
 import UpperMenu from "../UpperMenu/upperMenu";
 import Navigation from "../Navigation/navigation";
+import validate from '../Validation/validate';
+import useForm from '../Validation/useForm';
+// import logInSucess from '../Validation/logInSucess';
+// import Form from '../Validation/form';
 
 
-const validate = form => {
-    if(!form.email) {
-        return "adres e-mail jest wymagany"
-    }
-    else if (!/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/i.test(form.email)) {
-        return "błędny adres email"
-    }
-
-    if(!form.name) {
-        return "Imię jest wymagane"
-    } else if (form.name.length < 2) {
-        return "Imię jest za krótkie"
-    }
-
-    if(!form.password) {
-        return "Hasło jest wymagane"
-    } else if (form.name.length < 5) {
-        return "Hasło jest za krótkie"
-    }
-
-    if(form.passwordRep !== form.password) {
-        return "Hasła nie są identyczne"
-    }
-
-    return null
-}
-
-const Log = () => {
-    const [error, setError] = useState(null);
-    const [form, setForm] = useState({
-        email: "",
-        password: "",
-        passwordRep: ""
-    });
-
-    const updateField = e => {
-        setForm({
-            ...form,
-            [e.target.name]: e.target.value
-        })
-    }
-
-    const handleSubmit = async(e) => {
-        e.preventDefault()
-        const errorMsg = validate(form)
-        if(errorMsg) {
-            setError(errorMsg)
-            console.log("błąd")
-            return
-        }
-        console.log("form submitted", form)
-    }
+const Log = ({submitForm}) => {
+    const {handleChange, values, handleSubmit, errors} = useForm (submitForm,validate);
 
     return (
         <>
             <UpperMenu/>
             <Navigation/>
             <div className="LogContainer" id="form">
-                {/*{error && <ErrorMessage text={error}/>}*/}
+            <form action="" className="form" onSubmit={handleSubmit}>
                 <h1>Zaloguj się</h1>
                 <div className="LogContainerSmall">
                     <label>
@@ -72,8 +26,10 @@ const Log = () => {
                         type="email"
                         name="email"
                         id="email"
-                        onChange={updateField}
+                        value={values.email}
+                        onChange={handleChange}
                     />
+                   {errors.email && <p>{errors.email}</p>}
                     <label>
                     <h2>Hasło</h2>
                     <input
@@ -81,8 +37,10 @@ const Log = () => {
                         name="password"
                         id="password"
                         className="form-control"
-                        onChange={updateField}
+                        value={values.password}
+                        onChange={handleChange}
                     />
+                    {errors.password && <p>{errors.password}</p>}
                     </label>
                     <label>
                         <h2>Powtórz hasło</h2>
@@ -91,8 +49,10 @@ const Log = () => {
                             name="passwordRep"
                             id="passwordRep"
                             className="form-control"
-                            onChange={updateField}
+                            value={values.password2}
+                            onChange={handleChange}
                         />
+                        {errors.password2 && <p>{errors.password2}</p>}
                     </label>
                 </div>
                 <div className="LogContainerSmall2">
@@ -100,9 +60,9 @@ const Log = () => {
                     <button
                         type="submit"
                         className="lightButton btn-block btn-danger"
-                        onClick={handleSubmit}
                     >Zaloguj się</button>
                 </div>
+                </form>
             </div>
         </>
     );
